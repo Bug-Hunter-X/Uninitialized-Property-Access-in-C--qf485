@@ -1,0 +1,3 @@
+# Uninitialized Property Access in C#
+
+This repository demonstrates a common error in C#: accessing a property before it has been assigned a value.  Uninitialized properties will have default values (0 for integers, null for references), potentially leading to unexpected behavior or exceptions depending on how the property is used. The example shows how to properly initialize the property to avoid this. 
